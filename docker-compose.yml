@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    reactle:
+        ports:
+            - '80:8080'
+        container_name: reactle-prod
+        image: 'reactle:prod'
